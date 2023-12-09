@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: unset;
+    padding: unset;
+    font-family: monospace;
+}
+
+body {
+    color: #464646;
+    background-color: lightcoral;
+    border: 30px solid #46464657;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: none;
+    border-right: none;
+
+}
+
+body p {
+    text-align: justify;
+    text-indent: 3ch;
+}
+
+input[type="text"] {
+    border: none;
+    border-radius: 20%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    padding-left: 5ch;
+    margin: auto;
+    padding-right: 5ch;
+    background-color: #464646;
+    color: lightcoral;
+}
+
+input[type="text"] {
+    color: lightcoral;
+    font-weight: 700;
+}
+
+.logcount {
+    position: absolute;
+    left: 5px;
+    right: 95%;
+    top: auto;
+    bottom: auto;
+    color: black;
+
+}
+
+
+.entry.pass {
+    color: green;
+    text-shadow: 0.5px 0.5px 0px black;
+    background-color: rgba(54, 79, 16, 0.361);
+    border-color: greenyellow;
+    border: 1px solid;
+}
+
+.entry.fail {
+    background-color: rgb(215, 161, 161);
+    color: black;
+    border: red;
+}
+
+
+
+#logFrame {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: space-evenly;
+    justify-content: left;
+    background-color: white;
+    margin: 5px;
+    padding-left: 10px;
+    justify-content: space-between;
+}
